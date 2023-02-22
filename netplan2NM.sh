@@ -2,7 +2,8 @@
 
 # netplan2NM.sh
 # Ubuntu server 20.04  Change from netplan to NetworkManager for all interfaces
-# it was orignally for that anyways. I updated this so that it can *hopefully* be used in 22.04 LTS
+# it was orignally for that anyways. I updated this so that it can *hopefully* be used in 22.04 LTS 
+# works as of 2/22/23 (nice)
 echo 'Changing netplan to NetowrkManager on all interfaces'
 # backup existing yaml file
 cd /etc/netplan
